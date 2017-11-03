@@ -22,6 +22,21 @@
 
   <style>
 
+  :root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur:10px;
+  }
+
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter:blur(var(--blur));
+  }
+
+  .h1{
+    color: var(--base);
+  }
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -45,6 +60,19 @@
   </style>
 
   <script>
+  //create a variable inputs that assigns as querySelector for all within class controls and input
+  const inputs = document.querySelectorAll('.controls input');
+
+  function handleUpdate(){
+    const suffix = this.dataset.sizing || '';
+    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+  }
+
+  //does a loop to add an event listener change and does a function handleUpdate
+  //Change occurs when you release hold mouse button
+  inputs.forEach(input => input.addEventListener('change', handleUpdate));
+  //Mousemove occurs when any movement of the mouse button occurs
+  inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
   </script>
 
 </body>
