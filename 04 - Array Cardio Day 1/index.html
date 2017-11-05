@@ -84,15 +84,49 @@
    console.table(sortYearsLived);
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+    //Go to the link and input the following links
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 
+    // const category = document.querySelector('.mw-category');
+    // console.log(category);
+    // const links = Array.from(category.querySelectorAll('a'));
+    //
+    // //ES6 format
+    // this [...a] converts an finite of objects into an array of objects
+    // //const links = [...category.querySelectorAll('a')];
+    //
+    // const de = links
+    //   .map(link => link.textContent);
+    //   .filter(streetName => streetName.includes('de'));
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    const alpha = people.sort((lastOne, nextOne) => {
+      const [aLast, aFirst] = lastOne.split(', ');
+      const [bLast, bFirst] = nextOne.split(', ');
+      return aLast > bLast ? 1 : -1;
+    });
+
+    console.log(alpha);
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
     const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+
+    const transportaion = data.reduce(function(obj, item){
+      //item is the key, item is same as data[0], data[1],...
+      //console.log(item);
+
+      //obj is a created objects
+      if(!obj[item]){ //check if the item in data exist
+        obj[item] = 0;  //if not exist, it will create car = 0, truck = 0 ...
+      }
+
+      obj[item]++;   //otherwise it will count up the object
+
+      return obj;
+    }, {});
+    console.log(transportation);
 
   </script>
 </body>
