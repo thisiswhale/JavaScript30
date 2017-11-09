@@ -11,5 +11,6 @@ Challenge 4 - Completed 11/05/17
 Challenge 5 - Completed 11/05/17
 Challenge 6 - Completed 11/07/17
 Challenge 7 - Completed 11/09/17
+Challenge 8 - Completed 11/09/17
 
 Original Source Code: [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
