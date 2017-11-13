@@ -13,5 +13,26 @@ Challenge 6 - Completed 11/07/17
 Challenge 7 - Completed 11/09/17
 Challenge 8 - Completed 11/09/17
 Challenge 9 - Completed 11/10/17
+Challenge 10 - Completed 11/12/17
+Challenge 11 -
+Challenge 12 -
+Challenge 13 -
+Challenge 14 -
+Challenge 15 -
+Challenge 16 -
+Challenge 17 -
+Challenge 18 -
+Challenge 19 -
+Challenge 20 -
+Challenge 21 -
+Challenge 22 -
+Challenge 23 -
+Challenge 24 -
+Challenge 25 -
+Challenge 26 -
+Challenge 27 -
+Challenge 28 -
+Challenge 29 -
+Challenge 30 -
 
 Original Source Code: [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
