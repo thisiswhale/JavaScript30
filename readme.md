@@ -16,7 +16,7 @@ Challenge 9 - Completed 11/10/17
 Challenge 10 - Completed 11/12/17
 Challenge 11 - Completed 11/12/17
 Challenge 12 - Completed 11/12/17
-Challenge 13 -
+Challenge 13 - Completed 11/15/17
 Challenge 14 -
 Challenge 15 -
 Challenge 16 -
