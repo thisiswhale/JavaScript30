@@ -6,7 +6,7 @@
 </head>
 <body>
   <ul class="videos">
-    <li data-time="5:43">
+    <li data-time="5:45">
       Video 1
     </li>
     <li data-time="2:33">
@@ -182,6 +182,38 @@
     </li>
   </ul>
 <script>
+//convert to a NodeList
+let timeNodes = document.querySelectorAll('[data-time]');
+//console.log(timeNodes);
+
+//Converts to a Array
+timeNodes = Array.from(timeNodes);
+//console.log(timeNodes);
+
+const seconds = timeNodes
+  .map(node => node.dataset.time)
+  .map(timeCode => {
+    //ie timeCode = '1:20' => mins = '1', secs = '20'
+    //Note: mins and secs needs to be parsed to Float
+    const [mins, secs] = timeCode.split(':').map(parseFloat);
+
+    return (mins*60) + secs;
+  })
+  .reduce((total,vidSeconds) =>
+    //go through the array and total is added on a loop
+     total + vidSeconds);
+
+    let secondsLeft = seconds;
+
+    const hours = Math.floor(secondsLeft / 3600);
+    secondsLeft = secondsLeft % 3600;
+
+    const mins = Math.floor(secondsLeft / 60);
+    secondsLeft = secondsLeft % 60;
+
+
+    console.log(hours, mins, secondsLeft);
+
 </script>
 </body>
 </html>
