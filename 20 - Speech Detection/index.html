@@ -34,6 +34,10 @@ recognition.addEventListener('result', e => {
       p = document.createElement('p');
       words.appendChild(p);
     }
+
+    if(transcript.includes('unicorns')){
+      console.log('🐴');
+    }
 });
 
 //when you stop talking, listen again

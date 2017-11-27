@@ -24,7 +24,7 @@ Challenge 17 - Completed 11/20/17
 Challenge 18 - Completed 11/20/17
 Challenge 19 - Completed 11/21/17
 Challenge 20 - Completed 11/26/17
-Challenge 21 -
+Challenge 21 - Completed 11/26/17
 Challenge 22 -
 Challenge 23 -
 Challenge 24 -
