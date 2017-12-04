@@ -37,8 +37,30 @@
   }
 </style>
 
-<button></button>
+<button>yo</button>
 <script>
+  const divs = document.querySelectorAll('div');
+  const button = document.querySelector('button');
+
+  function logText(e){
+    console.log(this.classList.value);
+    //this will stop bubbling
+    //e.stopPropagation();
+  }
+
+  divs.forEach(div => div.addEventListener('click', logText, {
+    //capture to true means it click the three will run div one, two, then three, rather three, two, then one
+    capture: false,
+
+    //once will add the event listener once and remove it afterward
+    once: true
+  }));
+
+  button.addEventListener('click', () => {
+    console.log('click!!!');
+  }, {
+    once: true
+  });
 
 </script>
 </body>
