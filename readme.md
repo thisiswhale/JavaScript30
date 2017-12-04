@@ -29,7 +29,7 @@ Challenge 22 - Completed 11/26/17
 Challenge 23 - Completed 11/27/17
 Challenge 24 - Completed 12/03/17
 Challenge 25 - Completed 12/03/17
-Challenge 26 -
+Challenge 26 - Completed 12/04/17
 Challenge 27 -
 Challenge 28 -
 Challenge 29 -
