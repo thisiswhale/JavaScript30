@@ -31,7 +31,7 @@ Challenge 24 - Completed 12/03/17
 Challenge 25 - Completed 12/03/17
 Challenge 26 - Completed 12/04/17
 Challenge 27 - Completed 12/04/17
-Challenge 28 -
+Challenge 28 - Completed 12/05/17
 Challenge 29 -
 Challenge 30 -
 
