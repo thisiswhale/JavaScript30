@@ -32,7 +32,7 @@ Challenge 25 - Completed 12/03/17
 Challenge 26 - Completed 12/04/17
 Challenge 27 - Completed 12/04/17
 Challenge 28 - Completed 12/05/17
-Challenge 29 -
+Challenge 29 - Completed 12/07/17
 Challenge 30 -
 
 Original Source Code: [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
